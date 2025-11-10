@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Style untuk Header -->
+    <style name="HeaderTextStyle">
+        <item name="android:textSize">26sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <!-- Style untuk Tombol Kirim/Submit -->
+    <style name="SubmitButtonStyle" parent="Widget.AppCompat.Button.Colored">
+        <item name="android:background">@color/design_default_color_primary</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:layout_marginTop">8dp</item>
+    </style>
+
+    <!-- Style untuk Tombol Batal/Cancel -->
+    <style name="CancelButtonStyle" parent="Widget.AppCompat.Button.Outlined">
+        <item name="android:textColor">@color/design_default_color_primary</item>
+        <item name="strokeColor">@color/design_default_color_primary</item>
+    </style>
+</resources>
